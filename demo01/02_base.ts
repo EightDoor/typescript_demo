@@ -28,9 +28,9 @@ let c = false;
 
 
 function sum(a: number, b: number): number {
+  console.log("🚀 ~ file: 02_base.ts ~ line 31 ~ sum ~ sum", sum)
   return a + b;
 }
 
 let result = sum(123, 456);
-console.log(result);
 
