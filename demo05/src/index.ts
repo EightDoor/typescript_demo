@@ -1,6 +1,7 @@
 import "./style/index.less";
-import Food from "./module/Food";
-import ScorePanel from "./module/ScorePanel";
+import GameControl from "./module/GameControl";
+// import Food from "./module/Food";
+// import ScorePanel from "./module/ScorePanel";
 
 // 测试代码
 // const food = new Food();
@@ -12,3 +13,5 @@ import ScorePanel from "./module/ScorePanel";
 // for (let i = 0; i < 11; i++) {
 //   scorePanel.addScore();
 // }
+
+new GameControl();
